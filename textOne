@@ -1,2 +1,43 @@
 git 基本使用步骤：
 
+1.使用git检出仓库到本地
+右键git Bash here 
+指定检出文件夹：cd e:/gitStudy 
+检出目标文件： git clone xx 
+此时新增或是修改操作后进入到目标文件夹下
+cd e:/gitStudy/testRepositoryOne
+
+开始提交
+git add . 添加到本地库
+git commit -m "修改了testOne文件" 添加提交信息
+git push origin master 提交
+刷新gitHub 查看更新
+
+执行以上步骤时可能会出现，Please tell me who you are
+此时需指定git账号email 和 用户名使用如下命令进行配置
+ git config --global user.email "1070954729@qq.com"
+ git config --global user.name "nevercopycopy"
+ 
+出现 Everything up-to-date 表示提交区的所有东西都是最新的
+一般是提交命令没有流程执行（一般是某步有问题）
+重新执行 git add . --> git commit -m "修改了testOne文件" --> git push origin master 即可 
+
+拉去最新代码：
+git pull
+Already up to date 表示本地代码已是最新没有可以更新的了
+
+
+
+verified 核实
+
+
+Everything up-to-date 问题解决相关
+https://blog.csdn.net/u012145252/article/details/80634768
+https://www.jianshu.com/p/9b8894b144b8
+
+
+ 
+ 
+
+
+
