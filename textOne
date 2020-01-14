@@ -1,3 +1,6 @@
+git 基本使用
+https://www.jianshu.com/p/3f12bd3ccf2a
+
 git 基本使用步骤：
 
 1.使用git检出仓库到本地
@@ -40,13 +43,29 @@ git reset id(对应版本id) 返回对应的指定版本
 
 名词释义
 verified 核实
+origin  起源;源头
 
+
+
+如果git仓库代码已经被修改此时未更新本地代码（git pull） 直接提交更新会提示先拉取git仓库最新代码到本地
+拉取之后会形成如下冲突
+
+<<<<<<< HEAD
 冲突测试
+=======
+测试冲突
+>>>>>>> 88572a2e43b0f597b2f4cbe26b4c2da4aac4e3c5
+
+git 之文件回复
+https://www.cnblogs.com/liuq/p/9203087.html
 
 
 Everything up-to-date 问题解决相关
 https://blog.csdn.net/u012145252/article/details/80634768
 https://www.jianshu.com/p/9b8894b144b8
+
+
+
 
 
  
