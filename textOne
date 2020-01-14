@@ -28,6 +28,17 @@ Already up to date 表示本地代码已是最新没有可以更新的了
 
 
 
+git提交命令相关解释
+https://segmentfault.com/a/1190000013026207
+
+git 相关常用命令
+git log  查看提交信息
+git status 查看未提交到暂存区的文件
+
+git reset id(对应版本id) 返回对应的指定版本 
+
+
+名词释义
 verified 核实
 
 
