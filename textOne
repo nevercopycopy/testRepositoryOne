@@ -1,8 +1,15 @@
 git 基本使用
 https://www.jianshu.com/p/3f12bd3ccf2a
 
-git 基本使用步骤：
+git提交命令相关解释
+https://segmentfault.com/a/1190000013026207
 
+名词释义
+verified 核实
+origin master 原始版本
+
+
+git 基本使用步骤：
 1.使用git检出仓库到本地
 右键git Bash here 
 指定检出文件夹：cd e:/gitStudy 
@@ -10,7 +17,7 @@ git 基本使用步骤：
 此时新增或是修改操作后进入到目标文件夹下
 cd e:/gitStudy/testRepositoryOne
 
-开始提交
+2.开始提交
 git add . 添加到本地库
 git commit -m "修改了testOne文件" 添加提交信息
 git push origin master 提交
@@ -25,25 +32,18 @@ git push origin master 提交
 一般是提交命令没有流程执行（一般是某步有问题）
 重新执行 git add . --> git commit -m "修改了testOne文件" --> git push origin master 即可 
 
-拉去最新代码：
+
+3.拉去最新代码
 git pull
 Already up to date 表示本地代码已是最新没有可以更新的了
 
 
-
-git提交命令相关解释
-https://segmentfault.com/a/1190000013026207
-
-git 相关常用命令
+4.git 相关常用命令
 git log  查看提交信息
 git status 查看未提交到暂存区的文件
-
 git reset id(对应版本id) 返回对应的指定版本 
 
 
-名词释义
-verified 核实
-origin  起源;源头
 
 
 
@@ -56,9 +56,12 @@ origin  起源;源头
 测试冲突
 >>>>>>> 88572a2e43b0f597b2f4cbe26b4c2da4aac4e3c5
 
-git 之文件回复
+git 之文件回复：
 https://www.cnblogs.com/liuq/p/9203087.html
 git 仓库区域   仓库区--》暂存区--》工作区
+修改文件的三种情况：
+
+
 
 
 
